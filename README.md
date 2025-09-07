@@ -50,6 +50,7 @@ g++ -std=c++17 -Wall -Wextra main.cpp -o main
 
 # 執行
 ./main
+```
 
 ## 5. 修改程式 → Commit → Push
 
