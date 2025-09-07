@@ -54,6 +54,9 @@ g++ -std=c++17 -Wall -Wextra main.cpp -o main
 ## 5. 修改程式 → Commit → Push
 
 > 這一步很重要：把你修改過的程式存回 GitHub！
+- 什麼是 git (https://gitbook.tw/chapters/introduction/what-is-git)
+- 簡單 4 步驟 (https://www.maxlist.xyz/2018/11/02/git_tutorial/)
+
 
 ### Step 1：修改程式
 - 打開 `main.cpp`
