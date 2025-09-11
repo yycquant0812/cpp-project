@@ -29,9 +29,10 @@
 ---
 
 ## 3. 新增教材檔案
-1. 在左側檔案樹按右鍵 → **New File** → 輸入 `main.cpp`。
-2. 貼上老師提供的「**全部註解、逐行解鎖**」範例檔內容。
-3. 按 **Ctrl+S / Cmd+S** 存檔。
+1. 在左側檔案樹按右鍵 → **New Folder** → 輸入 `test1` 建立資料夾。  
+2. 在 `test1` 資料夾上按右鍵 → **New File** → 輸入 `main.cpp`。  
+3. 貼上老師提供的「**全部註解、逐行解鎖**」範例檔內容。  
+4. 按 **Ctrl+S / Cmd+S** 存檔。  
 
 ---
 
@@ -39,11 +40,8 @@
 在 Codespaces 下方 **Terminal** 輸入：
 
 ```bash
-# 檢查 g++ 是否存在（顯示版本代表 OK）
-g++ --version
-
-# 如果顯示找不到 g++，就先安裝：
-sudo apt-get update -y && sudo apt-get install -y build-essential
+# 進到 test1 資料夾
+cd test1
 
 # 編譯
 g++ -std=c++17 -Wall -Wextra main.cpp -o main
@@ -51,6 +49,9 @@ g++ -std=c++17 -Wall -Wextra main.cpp -o main
 # 執行
 ./main
 ```
+
+---
+
 
 ## 5. 修改程式 → Commit → Push
 
