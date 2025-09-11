@@ -19,7 +19,7 @@
 
 ---
 
-## 2. 用 Codespaces 打開
+## 2. 用 Codespaces 打開 (https://github.com/features/codespaces)
 1. 進到你剛建立的 repo。
 2. 點綠色 **Code** 按鈕 → **Open with Codespaces** → **Create codespace on main**。  
    （第一次建立大約需要 1–2 分鐘）
