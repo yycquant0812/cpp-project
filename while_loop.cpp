@@ -15,6 +15,14 @@ int main() {
         i++;                  // 增加變數（原本在 for 第三段）
     }
     cout << endl;
+
+
+    for (int i = 1; i <= 9; i++) {         // 外圈：控制「第幾個數」
+        for (int j = 1; j <= 9; j++) {     // 內圈：控制「乘上誰」
+            cout << i << "×" << j << "=" << i * j << "\t";
+        }
+        cout << endl; // 換行，完成一列
+    }
     return 0;
   
 }
